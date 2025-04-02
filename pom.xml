@@ -3,7 +3,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.SalavatYuldashev</groupId>
+    <groupId>com.salavatyuldashev</groupId>
     <artifactId>weather-advisor</artifactId>
     <version>1.0</version>
 
@@ -13,6 +13,7 @@
         <logback.version>1.5.18</logback.version>
         <slf4j.version>2.0.17</slf4j.version>
         <maven.compiler.plugin.version>3.14.0</maven.compiler.plugin.version>
+        <lombok.version>1.18.38</lombok.version>
     </properties>
 
     <dependencies>
@@ -55,7 +56,13 @@
             <artifactId>slf4j-api</artifactId>
             <version>${slf4j.version}</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-compiler-plugin -->
+        <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>${lombok.version}</version>
+            <scope>provided</scope>
+        </dependency>
 
     </dependencies>
     <build>

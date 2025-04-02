@@ -1,5 +1,5 @@
 # weather-advisor
-Maven project generated with com.a9ski:quick-start archetype
+Java-консольное приложение, которое предоставляет советы на основе текущей погоды по городу.
 
 
 # Development guide
