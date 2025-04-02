@@ -2,11 +2,10 @@ package com.salavatyuldashev.advisor;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.slf4j.LoggerFactoryFriend;
 
 
 public class WeatherAdvisorApp {
-    private static Logger log = LoggerFactory.getLogger(WeatherAdvisorApp.class);
+    private final static Logger log = LoggerFactory.getLogger(WeatherAdvisorApp.class);
 
     {
     }
